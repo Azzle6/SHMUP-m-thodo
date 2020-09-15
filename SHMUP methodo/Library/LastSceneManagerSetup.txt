@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/FLC_TestScene.unity
+=======
+- path: Assets/Scenes/NAC_MASTERPROGSCENE.unity
+>>>>>>> Main
   isLoaded: 1
   isActive: 1
   isSubScene: 0
