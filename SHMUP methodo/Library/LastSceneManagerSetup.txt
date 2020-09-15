@@ -1,5 +1,13 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/ELC_TestScene.unity
+=======
+<<<<<<< HEAD
+- path: Assets/Scenes/FLC_TestScene.unity
+=======
+- path: Assets/Scenes/NAC_MASTERPROGSCENE.unity
+>>>>>>> Main
+>>>>>>> Félix
   isLoaded: 1
   isActive: 1
   isSubScene: 0
