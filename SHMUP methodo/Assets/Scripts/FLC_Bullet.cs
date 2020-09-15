@@ -21,15 +21,17 @@ public class FLC_Bullet : MonoBehaviour
         transform.Translate(new Vector3(0, speed * Time.deltaTime, 0), Space.Self);
     }
 
-    private void OnTriggerEnter2D(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.CompareTag("Enemy") && friendlyBullet)
         {
             Object.Destroy(other.gameObject);
+            Object.Destroy(this.gameObject);
         }
         else if(other.CompareTag("Player") && !friendlyBullet)
         {
             Object.Destroy(GameObject.FindGameObjectWithTag("Player"));
+            Object.Destroy(this.gameObject);
         }
     }
 }
