@@ -8,7 +8,7 @@ public class FLC_Shoot : MonoBehaviour
     public GameObject bulletToSpawn;
 
     public bool isPlayer;
-    [System.NonSerialized] public bool shoot;
+    public bool shoot;
     bool inCooldown;
 
     [SerializeField]
@@ -25,7 +25,7 @@ public class FLC_Shoot : MonoBehaviour
         {
             shoot = true;
         }
-        else
+        else if(this.CompareTag("Enemy") == false)
         {
             shoot = false;
         }
