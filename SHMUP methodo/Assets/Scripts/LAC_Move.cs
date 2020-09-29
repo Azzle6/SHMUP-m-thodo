@@ -5,7 +5,7 @@ using UnityEngine;
 public class LAC_Move : MonoBehaviour
 {
 
-    public float speed;
+    public float speed, mouseSpeed;
     public Vector2 camBoundMin, camBoundMax;
     float camWidth, camHeight;
     Rigidbody2D rb;
@@ -37,15 +37,19 @@ public class LAC_Move : MonoBehaviour
 
         dir = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")).normalized;
 
-        // clamp position
+        if (Input.GetMouseButton(0))
+            dir = (cam.ScreenToWorldPoint(Input.mousePosition) - transform.position) * mouseSpeed;
+        
 
     }
 
     private void FixedUpdate()
     {
+        
         Vector2 targetVelocity = dir * speed * Time.deltaTime;
         Vector2 velocity = targetVelocity;
 
+        // clamp position
         if (transform.position.x + velocity.x > camBoundMax.x)
             velocity.x = 0;
           
