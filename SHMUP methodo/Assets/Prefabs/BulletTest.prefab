@@ -97,6 +97,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   friendlyBullet: 1
   speed: 1
+  explosion: {fileID: 2582179226096663261, guid: dd23721fb6034144b96eea5f3274c9e2,
+    type: 3}
 --- !u!58 &1692415314855901774
 CircleCollider2D:
   m_ObjectHideFlags: 0

@@ -24,6 +24,12 @@ PrefabInstance:
       propertyPath: friendlyBullet
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3134724840173413235, guid: cbc5814f8975a6e4d99cc1018d170912,
+        type: 3}
+      propertyPath: explosion
+      value: 
+      objectReference: {fileID: 2582179226096663261, guid: dd23721fb6034144b96eea5f3274c9e2,
+        type: 3}
     - target: {fileID: 6313891018597692544, guid: cbc5814f8975a6e4d99cc1018d170912,
         type: 3}
       propertyPath: m_LocalPosition.x
