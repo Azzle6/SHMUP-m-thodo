@@ -22,11 +22,15 @@ MonoBehaviour:
 <<<<<<< Updated upstream
   m_Title: 
   m_RootView: {fileID: 6}
+<<<<<<< HEAD
 =======
   m_Title: Game
   m_RootView: {fileID: 12}
 >>>>>>> Stashed changes
   m_MinSize: {x: 875, y: 542}
+=======
+  m_MinSize: {x: 875, y: 300}
+>>>>>>> Louis
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 0
 --- !u!114 &2
@@ -114,7 +118,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 37
+  controlID: 56
 --- !u!114 &3
 =======
     y: 411
@@ -287,7 +291,7 @@ MonoBehaviour:
     y: 0
 <<<<<<< Updated upstream
     width: 376
-    height: 563
+    height: 660
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
@@ -327,10 +331,14 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     y: 563
+=======
+    y: 660
+>>>>>>> Louis
     width: 1518
-    height: 368
+    height: 271
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 13}
@@ -382,7 +390,7 @@ MonoBehaviour:
     y: 0
     width: 1904
     height: 981
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 <<<<<<< Updated upstream
 --- !u!114 &7
@@ -470,7 +478,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 38
+  controlID: 57
 --- !u!114 &10
 =======
     width: 1148
@@ -499,11 +507,11 @@ MonoBehaviour:
     y: 0
 <<<<<<< Updated upstream
     width: 1518
-    height: 563
+    height: 660
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 39
+  controlID: 58
 --- !u!114 &11
 =======
     width: 1148
@@ -542,9 +550,9 @@ MonoBehaviour:
     x: 376
     y: 0
     width: 1142
-    height: 563
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+    height: 660
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -691,8 +699,9 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< Updated upstream
     x: 8
-    y: 644
+    y: 741
     width: 1517
+<<<<<<< HEAD
     height: 347
 =======
     x: 1148
@@ -700,6 +709,9 @@ MonoBehaviour:
     width: 494
     height: 295
 >>>>>>> Stashed changes
+=======
+    height: 250
+>>>>>>> Louis
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -714,12 +726,16 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
+<<<<<<< HEAD
   - Assets/Prefabs
 <<<<<<< Updated upstream
+=======
+  - Assets/Scripts
+>>>>>>> Louis
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\l.accard\Desktop\SHMUP-m-thodo\SHMUP methodo
 =======
@@ -731,6 +747,7 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     m_SelectedIDs: be390000
     m_LastClickedID: 14782
@@ -740,6 +757,11 @@ MonoBehaviour:
     m_LastClickedID: 14680
     m_ExpandedIDs: 000000005239000000ca9a3b
 >>>>>>> Stashed changes
+=======
+    m_SelectedIDs: 3e390000
+    m_LastClickedID: 14654
+    m_ExpandedIDs: 000000003439000000ca9a3b
+>>>>>>> Louis
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -767,11 +789,15 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     m_ExpandedIDs: 00000000ba390000
 =======
     m_ExpandedIDs: 000000005239000000ca9a3b
 >>>>>>> Stashed changes
+=======
+    m_ExpandedIDs: 0000000034390000
+>>>>>>> Louis
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -798,8 +824,12 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     m_HadKeyboardFocusLastEvent: 0
+=======
+    m_HadKeyboardFocusLastEvent: 1
+>>>>>>> Louis
     m_ExpandedInstanceIDs: c6230000
 =======
     m_HadKeyboardFocusLastEvent: 1
@@ -820,11 +850,15 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
+<<<<<<< HEAD
 <<<<<<< Updated upstream
       m_ClientGUIView: {fileID: 0}
 =======
       m_ClientGUIView: {fileID: 7}
 >>>>>>> Stashed changes
+=======
+      m_ClientGUIView: {fileID: 5}
+>>>>>>> Louis
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -915,6 +949,7 @@ MonoBehaviour:
     x: 8
     y: 81
     width: 375
+<<<<<<< HEAD
     height: 542
 =======
     x: 1148
@@ -922,10 +957,14 @@ MonoBehaviour:
     width: 219
     height: 610
 >>>>>>> Stashed changes
+=======
+    height: 639
+>>>>>>> Louis
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
       m_SelectedIDs: 68390000
       m_LastClickedID: 14696
@@ -935,6 +974,11 @@ MonoBehaviour:
       m_LastClickedID: 0
       m_ExpandedIDs: baf9ffff3cfaffff6afbffff
 >>>>>>> Stashed changes
+=======
+      m_SelectedIDs: d4faffff
+      m_LastClickedID: -1324
+      m_ExpandedIDs: 60fbffff06390000
+>>>>>>> Louis
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: Explosion
@@ -950,11 +994,15 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 0
         m_IsRenamingFilename: 0
+<<<<<<< HEAD
 <<<<<<< Updated upstream
         m_ClientGUIView: {fileID: 0}
 =======
         m_ClientGUIView: {fileID: 5}
 >>>>>>> Stashed changes
+=======
+        m_ClientGUIView: {fileID: 4}
+>>>>>>> Louis
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -992,7 +1040,7 @@ MonoBehaviour:
     x: 384
     y: 81
     width: 1140
-    height: 542
+    height: 639
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 79850a60eee192c4dbd915c5aa96515e
@@ -1013,6 +1061,7 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     m_Target: {x: -39.090874, y: -8.813991, z: -6.363861}
     speed: 2
@@ -1022,6 +1071,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.39103493, y: 0.2791316, z: -0.7311318}
 >>>>>>> Stashed changes
+=======
+    m_Target: {x: -47.35056, y: -22.002773, z: -14.20356}
+    speed: 2
+    m_Value: {x: -46.514427, y: -20.855684, z: -13.777831}
+>>>>>>> Louis
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1071,6 +1125,7 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     m_Target: 37.819298
     speed: 2
@@ -1080,6 +1135,11 @@ MonoBehaviour:
     speed: 2
     m_Value: 3.1246564
 >>>>>>> Stashed changes
+=======
+    m_Target: 98.84921
+    speed: 2
+    m_Value: 94.592545
+>>>>>>> Louis
   m_Ortho:
     m_Target: 1
     speed: 2
