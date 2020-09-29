@@ -97,8 +97,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd10e3045c0bd6f44be67fa2247c731f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  verticalSpeed: 5
-  horizontalSpeed: 5
+  verticalSpeed: 0.5
+  horizontalSpeed: 1
+  scoreEarnedWhenDead: 25
   followPlayer: 1
   followPath: 0
   path1: {fileID: 0}
@@ -122,6 +123,7 @@ MonoBehaviour:
   bulletToSpawn: {fileID: 1725778733744697943, guid: 2d5ecbbc5d7876f4f9c3073eb168ff25,
     type: 3}
   isPlayer: 0
+  shoot: 0
   cadence: 0.5
 --- !u!61 &7716819444930734807
 BoxCollider2D:

@@ -8,11 +8,7 @@ public class ELC_PlayerStats : MonoBehaviour
     public float Score;
     public ELC_CentralDisplay displayScript;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        Lives = 3;
-    }
+
 
     // Update is called once per frame
     void Update()
