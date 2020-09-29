@@ -7,6 +7,8 @@ public class ELC_EnemyMoves : MonoBehaviour
     public float verticalSpeed;
     public float horizontalSpeed;
 
+    public float scoreEarnedWhenDead = 0;
+
     private float playerDistanceX;
 
     public bool followPlayer;
@@ -26,7 +28,7 @@ public class ELC_EnemyMoves : MonoBehaviour
     private GameObject playerObject;
     private void Start()
     {
-        
+
         playerObject = GameObject.FindGameObjectWithTag("Player");
 
         if(followPath)
@@ -41,7 +43,7 @@ public class ELC_EnemyMoves : MonoBehaviour
 
     void Update()
     {
-        if (followPlayer == true)
+        if (followPlayer == true && playerObject != null)
         {
             playerDistanceX = (playerObject.GetComponent<Transform>().position.x - this.transform.position.x) * 3;
             enemyDirection.x = Mathf.Clamp(playerDistanceX, -horizontalSpeed, horizontalSpeed);

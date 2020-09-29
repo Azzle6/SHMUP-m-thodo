@@ -8,12 +8,15 @@ public class FLC_Bullet : MonoBehaviour
 
     public float speed;
 
+    private GameObject playerObject;
+
     void Start()
     {
         if (!friendlyBullet)
         {
             speed = -speed;
         }
+        playerObject = GameObject.FindGameObjectWithTag("Player");
     }
 
     void Update()
@@ -25,12 +28,13 @@ public class FLC_Bullet : MonoBehaviour
     {
         if(other.CompareTag("Enemy") && friendlyBullet)
         {
+            playerObject.GetComponent<ELC_PlayerStats>().Score += other.GetComponent<ELC_EnemyMoves>().scoreEarnedWhenDead;
             Object.Destroy(other.gameObject);
             Object.Destroy(this.gameObject);
         }
         else if(other.CompareTag("Player") && !friendlyBullet)
         {
-            Object.Destroy(GameObject.FindGameObjectWithTag("Player"));
+            other.GetComponent<ELC_PlayerStats>().Lives -= 1;
             Object.Destroy(this.gameObject);
         }
     }
