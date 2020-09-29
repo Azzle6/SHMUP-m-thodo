@@ -1,6 +1,12 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:SHMUP methodo/Assets/Scripts/LAC_Move.cs.meta
 guid: 205b660edf402814784fbe83504f1971
 MonoImporter:
+=======
+guid: 85ab211c2a73dd74fba9a8231cb5f7ea
+folderAsset: yes
+DefaultImporter:
+>>>>>>> Main:SHMUP methodo/Assets/Sprites.meta
   externalObjects: {}
   serializedVersion: 2
   defaultReferences: []
