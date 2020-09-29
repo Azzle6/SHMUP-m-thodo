@@ -9,6 +9,7 @@ public class FLC_Bullet : MonoBehaviour
     public float speed;
 
     private GameObject playerObject;
+    public GameObject explosion;
 
     void Start()
     {
@@ -29,11 +30,13 @@ public class FLC_Bullet : MonoBehaviour
         if(other.CompareTag("Enemy") && friendlyBullet)
         {
             playerObject.GetComponent<ELC_PlayerStats>().Score += other.GetComponent<ELC_EnemyMoves>().scoreEarnedWhenDead;
+            Object.Instantiate(explosion, this.transform.position, Quaternion.identity);
             Object.Destroy(other.gameObject);
             Object.Destroy(this.gameObject);
         }
         else if(other.CompareTag("Player") && !friendlyBullet)
         {
+            Object.Instantiate(explosion, this.transform.position, Quaternion.identity);
             other.GetComponent<ELC_PlayerStats>().Lives -= 1;
             Object.Destroy(this.gameObject);
         }
