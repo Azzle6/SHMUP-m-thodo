@@ -159,6 +159,7 @@ GameObject:
   - component: {fileID: 1507081683609730788}
   - component: {fileID: 1507081683609730786}
   - component: {fileID: 1507081683609730787}
+  - component: {fileID: 4488565075322067342}
   - component: {fileID: 1507081683609730784}
   - component: {fileID: 1507081683609730785}
   m_Layer: 0
@@ -253,6 +254,24 @@ MonoBehaviour:
   path3: {fileID: 1507081683578750799}
   actualFollowedPath: {fileID: 0}
   enemyDirection: {x: 0, y: 0, z: 0}
+--- !u!114 &4488565075322067342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1507081683609730789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30d51728a267d1e4480a8f019ac5b88c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletSpawnPosition: {fileID: 1507081683609730789}
+  bulletToSpawn: {fileID: 1725778733744697943, guid: 2d5ecbbc5d7876f4f9c3073eb168ff25,
+    type: 3}
+  isPlayer: 0
+  shoot: 1
+  cadence: 0.5
 --- !u!61 &1507081683609730784
 BoxCollider2D:
   m_ObjectHideFlags: 0
