@@ -13,7 +13,7 @@ public class ELC_InputMenus : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Backspace))
         {
-            SceneManager.LoadScene("MenuScene", LoadSceneMode.Single);
+            ChangeScene(0);
         }
         else if(Input.GetKeyDown(KeyCode.P))
         {
@@ -32,5 +32,10 @@ public class ELC_InputMenus : MonoBehaviour
             
         }
 
+    }
+
+    public void ChangeScene(int sceneIndex)
+    {
+        SceneManager.LoadScene(sceneIndex, LoadSceneMode.Single);
     }
 }
