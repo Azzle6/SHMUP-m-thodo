@@ -37,7 +37,7 @@ public class LAC_Move : MonoBehaviour
 
         dir = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")).normalized;
 
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButton(1))
             dir = (cam.ScreenToWorldPoint(Input.mousePosition) - transform.position) * mouseSpeed;
         
 
