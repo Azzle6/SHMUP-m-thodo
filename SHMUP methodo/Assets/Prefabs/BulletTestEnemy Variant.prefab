@@ -13,12 +13,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 149174987, guid: cbc5814f8975a6e4d99cc1018d170912, type: 3}
       propertyPath: m_Color.g
-      value: 0.2235294
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 149174987, guid: cbc5814f8975a6e4d99cc1018d170912, type: 3}
       propertyPath: m_Color.b
-      value: 0.3095907
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 149174987, guid: cbc5814f8975a6e4d99cc1018d170912, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c5936f00bcf272a4ba27a9d7e87597ed,
+        type: 3}
     - target: {fileID: 3134724840173413235, guid: cbc5814f8975a6e4d99cc1018d170912,
         type: 3}
       propertyPath: friendlyBullet
