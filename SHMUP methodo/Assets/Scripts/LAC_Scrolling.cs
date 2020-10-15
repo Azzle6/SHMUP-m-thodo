@@ -14,12 +14,14 @@ public class LAC_Scrolling : MonoBehaviour
     void Start()
     {
         // get and disable all child execpt scroll manager (child[0])
-        childObj = GetComponentsInChildren<Transform>();
+
+        //childObj = GetComponentsInChildren<Transform>();
         for(int i = 0; i < childObj.Length; i++)
         {
-            if (i !=0)
+            //if (i !=0)
             childObj[i].gameObject.SetActive(false);
         }
+
         // get camera
         GameObject mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
         cam = mainCamera.GetComponent<Camera>();
@@ -39,21 +41,27 @@ public class LAC_Scrolling : MonoBehaviour
         Active(ObjInScreen(childObj,camLimit));
     }
 
-    public Transform ObjInScreen( Transform[] tList, float yScreen)
+    public Transform[] ObjInScreen( Transform[] tList, float yScreen)
     {
-        Transform transform = null;
-        foreach(Transform t in tList)
+        Transform[] transform = new Transform[tList.Length];
+        for (int i = 0; i < tList.Length; i++)
         {
-            if (t.position.y < yScreen)
-                transform = t;
+            if(tList[i].transform.position.y < yScreen)
+                transform[i] = tList[i];
         }
 
         return transform;
     }
 
-    public void Active( Transform child)
+    public void Active( Transform[] child)
     {
-        child.gameObject.SetActive(true);
-        child.SetParent(null);
+        foreach(Transform c in child)
+        {
+            if(c != null)
+            {
+                c.gameObject.SetActive(true);
+                c.SetParent(null);
+            }
+        }
     }
 }
