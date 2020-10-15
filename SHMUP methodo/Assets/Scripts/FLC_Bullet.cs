@@ -37,7 +37,12 @@ public class FLC_Bullet : MonoBehaviour
         else if(other.CompareTag("Player") && !friendlyBullet)
         {
             Object.Instantiate(explosion, this.transform.position, Quaternion.identity);
-            other.GetComponent<ELC_PlayerStats>().Lives -= 1;
+            if(!other.GetComponent<ELC_PlayerStats>().isInvincible)
+            {
+                other.GetComponent<ELC_PlayerStats>().Lives -= 1;
+                other.GetComponent<ELC_PlayerStats>().LaunchInvincibility(2);
+            }
+
             Object.Destroy(this.gameObject);
         }
     }

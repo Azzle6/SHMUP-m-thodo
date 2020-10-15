@@ -760,6 +760,11 @@ PrefabInstance:
       propertyPath: Lives
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 5666729437624846936, guid: 67b7a675c7b57f84681599cd3f05241a,
+        type: 3}
+      propertyPath: ScoreToWinALife
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 5666729437624846937, guid: 67b7a675c7b57f84681599cd3f05241a,
         type: 3}
       propertyPath: mouseSpeed

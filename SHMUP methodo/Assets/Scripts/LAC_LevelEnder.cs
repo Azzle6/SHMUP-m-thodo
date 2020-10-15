@@ -5,11 +5,22 @@ using UnityEngine.SceneManagement;
 
 public class LAC_LevelEnder : MonoBehaviour
 {
+    public int sceneIndex;
+    private ELC_CentralDisplay displayScript;
+    private bool coroutineIsActivated;
 
-    // Start is called before the first frame update
-    void Update()
+    private void Update()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        displayScript = GameObject.Find("Canvas Manager").GetComponent<ELC_CentralDisplay>();
+        if (!coroutineIsActivated) StartCoroutine("Congratulations");
     }
 
+    IEnumerator Congratulations()
+    {
+        coroutineIsActivated = true;
+        Debug.Log("Activation");
+        displayScript.DisplayMessage("CONGRATULATIONS !!!");
+        yield return new WaitForSeconds(5);
+        SceneManager.LoadScene(sceneIndex/*SceneManager.GetActiveScene().buildIndex*/);
+    }
 }
